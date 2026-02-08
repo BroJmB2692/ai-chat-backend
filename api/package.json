@@ -1,6 +1,7 @@
 {
-  "name": "ai-chat-backend",
+  "name": "ai-site-backend",
   "version": "1.0.0",
+  "type": "module",
   "dependencies": {
     "openai": "^4.0.0"
   }
