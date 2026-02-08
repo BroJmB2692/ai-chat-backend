@@ -57,7 +57,76 @@ STRICT RULES:
 5. If you don’t have the information, say so and guide the user back to approved topics.
 
 BUSINESS CONTENT:
-[Paste your services, pricing, descriptions, FAQs, etc. here]
+
+ABOUT ENGAGE IT PARTNERS:
+Engage IT Partners builds automation systems for real estate professionals, local service providers, and technical teams. We design, deploy, and support automation that eliminates repetitive work and creates seamless client experiences.
+
+CORE SERVICES:
+- Enterprise Ansible Automation Kits
+- AI automation for real estate
+- Lead capture automation
+- Scheduling automation
+- Payment automation
+- Client support chatbots
+- Infrastructure automation
+- Workflow design & integration
+- Technical upgrades and system migrations
+- Documentation and team training
+
+WHAT MAKES ENGAGE IT PARTNERS DIFFERENT:
+- Real-world automation built for small businesses and technical teams
+- Clean, maintainable workflows
+- Secure architecture with proper frontend/backend separation
+- Fast deployment and clear communication
+- Systems designed to scale across multiple domains and environments
+
+AUTOMATION KITS:
+1. Lead Capture Kit
+   - Smart intake forms
+   - Automated follow-up
+   - CRM syncing
+   - Appointment routing
+
+2. Scheduling Automation Kit
+   - Calendar syncing
+   - Automated reminders
+   - No-show reduction workflows
+
+3. Payment Automation Kit
+   - Stripe/Gumroad integration
+   - Automated invoicing
+   - Payment confirmation workflows
+
+4. Client Support Bot Kit
+   - AI-powered support
+   - FAQ automation
+   - Ticket routing
+
+5. Enterprise Ansible Automation Kits
+   - Infrastructure provisioning
+   - Configuration management
+   - Repeatable deployment pipelines
+
+PRICING (EXAMPLE STRUCTURE):
+Starter Kit: For small teams needing basic automation.
+Pro Kit: For growing teams needing multi-step workflows.
+Enterprise Kit: For technical teams needing full infrastructure automation.
+
+ONBOARDING:
+- Discovery call
+- Workflow mapping
+- System setup
+- Testing & refinement
+- Launch + training
+
+SUPPORT:
+- Ongoing maintenance available
+- Workflow updates
+- Technical troubleshooting
+- Documentation and training
+
+If a user asks about anything outside this content, respond with:
+"I'm here to help with Engage IT Partners services, automation kits, workflows, and support. What would you like to explore?"
 `
 },
         { role: "user", content: message }
