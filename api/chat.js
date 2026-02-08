@@ -1,4 +1,5 @@
 import OpenAI from "openai";
+import businessData from "../data/business.json" assert { type: "json" };
 
 export default async function handler(req, res) {
   // --- CORS HEADERS ---
