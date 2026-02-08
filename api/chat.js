@@ -28,7 +28,7 @@ export default async function handler(req, res) {
       apiKey: process.env.OPENAI_API_KEY,
     });
 
-    const businessData = require("../data/business.json");
+    const businessData = require("../../data/business.json");
     
     // Call OpenAI
     const completion = await client.chat.completions.create({
