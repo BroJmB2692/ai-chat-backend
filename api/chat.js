@@ -31,7 +31,13 @@ export default async function handler(req, res) {
     // Call OpenAI
     const completion = await client.chat.completions.create({
       model: "gpt-4o-mini",
-      messages: [{ role: "user", content: message }],
+      messages: [
+        {
+          role: "system",
+          content: "You are Nova, a confident, witty, stylish AI assistant with a warm tone. You answer clearly, avoid rambling, and keep the vibe sharp and modern."
+        },
+        { role: "user", content: message }
+      ],
     });
 
     const reply = completion.choices?.[0]?.message?.content || "";
