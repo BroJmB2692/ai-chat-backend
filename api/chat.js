@@ -59,7 +59,7 @@ STRICT RULES:
 5. If you don’t have the information, say so and guide the user back to approved topics.
 
 BUSINESS CONTENT (JSON):
-${JSON.stringify(businessData, null, 2)}
+${JSON.stringify(businessData)}
 `
 },
 { role: "user", content: message }
